@@ -1,0 +1,19 @@
+package one.digital.got;
+
+/**
+ * *Singleton "preguiçoso"
+ * @author AlineSouza-Band
+ *
+ */
+public class SingletonLazy {
+
+	private static SingletonLazy instancia;
+	
+	public SingletonLazy() {
+		super();
+	}
+	public static SingletonLazy getInstancia() {
+		return instancia;
+		
+	}
+}

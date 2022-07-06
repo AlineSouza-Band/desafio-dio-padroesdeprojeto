@@ -1,0 +1,23 @@
+package one.digital.got;
+
+/**
+ * *Singleton "apressado"
+ * @author AlineSouza-Band
+ *
+ */
+public class SingletonLazyHolder {
+	
+	private static class InstanceHolder {
+
+	public static SingletonHolder instancia = new SingletonLazyHolder() ;
+	
+	public SingletonLazyHolder() {
+		super();
+	}
+	public static SingletonLazyHolder getInstancia() {
+		return InstanceHolder.instancia;
+		}
+		
+		
+	}
+}

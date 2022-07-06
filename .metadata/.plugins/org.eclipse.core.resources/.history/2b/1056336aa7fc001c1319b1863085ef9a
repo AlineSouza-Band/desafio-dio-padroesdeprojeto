@@ -1,0 +1,14 @@
+package subsistema.crm;
+
+public class CrmService {
+	private CrmService() {
+		super();
+	
+}
+
+	public static void garavarCliente(String nome, String cep,String cidade, String estado) {
+		System.out.println("Cliente salvi no sistema de CRM.");
+		
+	}
+
+}
